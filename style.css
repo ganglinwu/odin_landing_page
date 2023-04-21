@@ -77,6 +77,41 @@ li {
     background-color: #e5e7ebe2 ;
 }
 
+.section-1 { 
+    padding: 50px 0px 100px 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 0px 0px 40px 0px;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center ;
+    gap: 50px;
+}
+
+.placeholder {
+    height: 180px;
+    width: 180px;
+    color: white;
+    border: #3882f6;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.card {
+    text-align: center;
+    width: 180px;
+    color:#949495;
+    font-size: 18px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
