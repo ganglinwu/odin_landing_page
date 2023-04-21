@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
 body{
-    font: roboto;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -7,22 +9,36 @@ body{
 .header {
     background-color: #1f2937;
     display: flex;
+    padding: 16px;
+    align-items: center;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    margin-right: auto;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
 }
 
 li {
     list-style-type: none;
     color: #e5e7eb;
     font-size: 18px;
+
 }
 
 
 
-
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 a {
     text-decoration: none;
