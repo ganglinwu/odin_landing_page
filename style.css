@@ -10,6 +10,8 @@ body{
 .heading {
     background-color: #1f2937;
     width: 100vw;
+    display: flex;
+    flex: auto;
 }
 
 .header {
@@ -17,6 +19,7 @@ body{
     display: flex;
     align-items: center;
     margin: 20px 100px;
+    flex: auto;
 }
 
 .logo {
@@ -41,6 +44,7 @@ li {
     background-color: #1f2937;
     width: 100vw;
     padding: 100px 0px;
+    flex: 1;
 }
 .splash {
     display: flex;
@@ -91,6 +95,7 @@ h2 {
 .container-1 {
     display: flex;
     justify-content: center ;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
